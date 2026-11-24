@@ -16,6 +16,7 @@ This sheet covers fundamental programming concepts, focusing on data types, cond
 | # | Problem | Topics | Solution |
 |---|---|---|---|
 | 01 | M. Capital or Small or Digit | ASCII, Character Classification | [Problem-01.cpp](Problem-01.cpp) |
+| 02 | P. First digit! | Integer Division, Digit Extraction | [Problem-02.cpp](Problem-02.cpp) |
 | — | *Problems will be added soon.* | — | — |
 
 ## Notes
