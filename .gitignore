@@ -1,0 +1,32 @@
+
+# C++ Compiled Files
+*.exe
+*.out
+*.o
+*.obj
+*.dll
+*.so
+*.a
+*.pdb
+
+# Build Directories
+build/
+cmake-build-*/
+
+# Visual Studio Code
+.vscode/
+
+# Visual Studio
+.vs/
+
+# IDE Files
+.idea/
+
+# Debug & Log Files
+*.log
+*.ilk
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
