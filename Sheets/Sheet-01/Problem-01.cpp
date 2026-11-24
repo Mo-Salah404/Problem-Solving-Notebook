@@ -84,6 +84,9 @@
     a fixed number of comparisons and use only one variable.
 */
 
+// =================================================================
+// =================================================================
+
 #include <iostream>
 using namespace std;
 
@@ -112,3 +115,30 @@ int main()
 
     return 0;
 }
+
+// =================================================================
+// =================================================================
+
+/*
+╔══════════════════════════════════════════════════════════╗
+║                    THINKING ASSIGNMENT                   ║
+╚══════════════════════════════════════════════════════════╝
+
+    Problem: N. Char
+
+    Challenge:
+    Given a letter X:
+    - If X is lowercase, convert it to uppercase.
+    - Otherwise, convert it to lowercase.
+    المطلوب منك انك تحول الحرف اللي المستخدم دخله من كابتل لسمال او من سمال لكابتل
+
+    💡 HINT:
+    "The ASCII difference between a lowercase letter
+    and its corresponding uppercase letter is 32."
+
+     جرّب تحلها بنفسك وشاركنا حلك
+
+    Problem Link:
+    [https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/N]
+
+*/
