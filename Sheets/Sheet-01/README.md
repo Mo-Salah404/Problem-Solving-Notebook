@@ -17,6 +17,8 @@ This sheet covers fundamental programming concepts, focusing on data types, cond
 |---|---|---|---|
 | 01 | M. Capital or Small or Digit | ASCII, Character Classification | [Problem-01.cpp](Problem-01.cpp) |
 | 02 | P. First digit! | Integer Division, Digit Extraction | [Problem-02.cpp](Problem-02.cpp) |
+| 03 | R. Age in Days  | Arithmetic, Integer Division, Modulo | [Problem-03.cpp](Problem-03.cpp) |
+| 04 | U. Float or int | Type Casting, Conditional Statements | [Problem-04.cpp](Problem-04.cpp) |
 | — | *Problems will be added soon.* | — | — |
 
 ## Notes
