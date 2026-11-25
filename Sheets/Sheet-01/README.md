@@ -20,6 +20,7 @@ This sheet covers fundamental programming concepts, focusing on data types, cond
 | 03 | R. Age in Days  | Arithmetic, Integer Division, Modulo | [Problem-03.cpp](Problem-03.cpp) |
 | 04 | U. Float or int | Type Casting, Conditional Statements | [Problem-04.cpp](Problem-04.cpp) |
 | 05 | X. Two Intervals | Intervals, Math, Min & Max, Conditions | [Problem-05.cpp](Problem-05.cpp) |
+| 06 | Y. The last 2 digits | Modulo Operator, Arithmetic Operations | [Problem-06.cpp](Problem-06.cpp) |
 | — | *Problems will be added soon.* | — | — |
 
 ## Notes
