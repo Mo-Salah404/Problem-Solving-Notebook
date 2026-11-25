@@ -21,6 +21,7 @@ This sheet covers fundamental programming concepts, focusing on data types, cond
 | 04 | U. Float or int | Type Casting, Conditional Statements | [Problem-04.cpp](Problem-04.cpp) |
 | 05 | X. Two Intervals | Intervals, Math, Min & Max, Conditions | [Problem-05.cpp](Problem-05.cpp) |
 | 06 | Y. The last 2 digits | Modulo Operator, Arithmetic Operations | [Problem-06.cpp](Problem-06.cpp) |
+| 07 | Z. Hard Compare | Logarithms, Mathematical Comparison, Conditional Statements | [Problem-07.cpp](Problem-07.cpp) |
 | — | *Problems will be added soon.* | — | — |
 
 ## Notes
