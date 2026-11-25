@@ -143,13 +143,29 @@
 // =================================================================
 // =================================================================
 
+
 #include <iostream>
+#include <iomanip>  // For setw and setfill
+/*
+    what is setw and setfill?
+    - setw(n): Sets the width of the next input/output field to n characters.
+    فكرتها ببساطة إننا بنحدد عدد الخانات اللي هيشغلها الرقم اللي هيتطبع
+      It means that the next value printed will occupy at least n spaces.
+      If the value has fewer than n characters, it will be padded with spaces (or other fill characters).
+    - setfill(c): Sets the fill character to c. This character is used to fill the empty spaces 
+        when the width is greater than the number of characters in the value being printed.
+        فكرتها اننا بنحدد إيه الحرف اللي هيستخدمه عشان يملأ الفراغات لو الرقم اللي هيتطبع أقل من عدد الخانات اللي حددناها
+    For example:
+    std::cout << std::setw(5) << std::setfill('0') << 42;
+    Output:
+    00042
+    هنا لو حددنا 5 خانات، والرقم اللي هيتطبع هو 42، يبقى هيحط 3 أصفار قبل الرقم عشان يوصل لعدد الخانات اللي حددناها
+*/
 using namespace std;
 
 int main()
 {
     long long A, B, C, D;   // استخدمنا long long لتجنب Overflow
-
     cin >> A >> B >> C >> D;
 
     long long result = A % 100; // Start with the last two digits of A
@@ -157,13 +173,33 @@ int main()
     result = (result * (B % 100)) % 100;    // Multiply by B and keep last two digits
     result = (result * (C % 100)) % 100;    // Multiply by C and keep last two digits
     result = (result * (D % 100)) % 100;    // Multiply by D and keep last two digits
-// كده بعد كل عملية ضرب بنحتفظ بآخر رقمين بس عشان نتجنب 
-// Overflow
 
-    cout << result << "\n"; 
+    cout << setw(2) << setfill('0') << result << "\n";  
 
     return 0;
 }
+
+// =================================================================
+// =================================================================
+
+/*
+    Important Output Formatting:
+
+    The problem requires exactly two digits.
+    If the result is less than 10, we must print
+    a leading zero.
+الفكرة هنا إننا لازم نطبع رقمين بالظبط، ولو الناتج أقل من 10
+    لازم نضيف صفر في الخانة الأولى
+    For example:
+    5  -> 05
+    0  -> 00
+    We can use:
+    setw(2) and setfill('0') from <iomanip>.
+    
+    يعني لازم نطبع خانتين حتى لو الناتج رقم واحد
+    ونستخدم صفر في الخانة الأولى
+*/
+
 
 /* =================================================================
     Thank you for your attention!
