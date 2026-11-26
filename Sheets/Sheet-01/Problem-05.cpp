@@ -61,7 +61,7 @@
     - The second interval is [L2, R2].
     - L1 <= R1 and L2 <= R2.
     - The boundaries are included in the intervals.
-    يعني نقاط البداية والنهاية محسوبة ضمن الفترة نفسها.=
+    يعني نقاط البداية والنهاية محسوبة ضمن الفترة نفسها
 
     Key Observation:
 
