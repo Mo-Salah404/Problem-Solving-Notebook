@@ -13,15 +13,15 @@ This sheet covers fundamental programming concepts, focusing on data types, cond
 
 ## Problems
 
-| # | Problem | Topics | Solution |
+| # | Problem | Topics | CodeForces | Solution |
 |---|---|---|---|
-| 01 | M. Capital or Small or Digit | ASCII, Character Classification | [Codeforces](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/M) | [Problem-01.cpp](Problem-01.cpp) |
-| 02 | P. First digit! | Integer Division, Digit Extraction | [Codeforces](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/P) | [Problem-02.cpp](Problem-02.cpp) |
-| 03 | R. Age in Days  | Arithmetic, Integer Division, Modulo | [Codeforces](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/R) | [Problem-03.cpp](Problem-03.cpp) |
-| 04 | U. Float or int | Type Casting, Conditional Statements | [Codeforces](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/U) | [Problem-04.cpp](Problem-04.cpp) |
-| 05 | X. Two Intervals | Intervals, Math, Min & Max, Conditions | [Codeforces](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/X) | [Problem-05.cpp](Problem-05.cpp) |
-| 06 | Y. The last 2 digits | Modulo Operator, Arithmetic Operations | [Codeforces](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/Y) | [Problem-06.cpp](Problem-06.cpp) |
-| 07 | Z. Hard Compare | Logarithms, Mathematical Comparison, Conditional Statements | [Codeforces](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/Z) | [Problem-07.cpp](Problem-07.cpp) |
+| 01 | M. Capital or Small or Digit | ASCII, Character Classification | [M](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/M) | [Problem-01.cpp](Problem-01.cpp) |
+| 02 | P. First digit! | Integer Division, Digit Extraction | [P](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/P) | [Problem-02.cpp](Problem-02.cpp) |
+| 03 | R. Age in Days  | Arithmetic, Integer Division, Modulo | [R](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/R) | [Problem-03.cpp](Problem-03.cpp) |
+| 04 | U. Float or int | Type Casting, Conditional Statements | [U](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/U) | [Problem-04.cpp](Problem-04.cpp) |
+| 05 | X. Two Intervals | Intervals, Math, Min & Max, Conditions | [X](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/X) | [Problem-05.cpp](Problem-05.cpp) |
+| 06 | Y. The last 2 digits | Modulo Operator, Arithmetic Operations | [Y](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/Y) | [Problem-06.cpp](Problem-06.cpp) |
+| 07 | Z. Hard Compare | Logarithms, Mathematical Comparison, Conditional Statements | [Z](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/Z) | [Problem-07.cpp](Problem-07.cpp) |
 | — | *Problems will be added soon.* | — | — |
 
 ## Notes
