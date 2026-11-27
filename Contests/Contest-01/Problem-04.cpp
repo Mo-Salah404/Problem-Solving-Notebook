@@ -61,24 +61,23 @@
 // =================================================================
 // =================================================================
 
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
-
-int main()
-{
-    double a, b, c;
+ 
+int main() {
+    long long a, b, c;  // Use long long to handle larger numbers for don't overflow
     cin >> a >> b >> c;
-
-    double result = a * b * c;  // Calculate the product of the three numbers
-
-    if (result != (long long)result)    // Check if the result is a floating-point number 
-    // type casting to long long to check if the result has a fractional part
+ 
+    long long result = a * b;   // Calculate the product of a and b
+ 
+    if (result % c != 0)    // Check if the product is not divisible by c
         cout << "double";
-    else if (result >= -2147483648.0 && result <= 2147483647.0)  // Check if the result fits in int range
+    else if (result / c >= INT_MIN && result / c <= INT_MAX)    // Check if the result is within the range of int
+    // INT_MIN and INT_MAX are constants defined in <climits> that represent the minimum and maximum values of the int data type
         cout << "int";
-    else    // If the result is an integer but doesn't fit in int range, it must be long long
+    else
         cout << "long long";
-
+ 
     return 0;
 }
 
