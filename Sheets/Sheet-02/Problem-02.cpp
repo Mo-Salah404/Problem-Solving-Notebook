@@ -118,7 +118,7 @@ int main()
     {
         bool isPrime = true;
 
-        for (int j = 2; j * j <= i; j++)
+        for (int j = 2; j * j <= i; j++)    // c
         {
             if (i % j == 0)
             {
@@ -127,7 +127,7 @@ int main()
             }
         }
 
-        if (isPrime)
+        if (isPrime)    
             cout << i << " ";
     }
 
