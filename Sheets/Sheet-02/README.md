@@ -1,23 +1,26 @@
 # Sheet #2 — Loops
 
-This sheet focuses on repetition and iteration in programming, developing the ability to solve problems using loops and controlled execution.
+This sheet focuses on loops and iterative problem-solving techniques, building the foundation for solving repetitive tasks efficiently.
 
 ## Topics Covered
 
-- `for` Loop
-- `while` Loop
-- `do-while` Loop
+- Loops (`for`, `while`, `do-while`)
 - Nested Loops
-- `break` and `continue`
-- Loop Control and Iteration
-- Basic Iterative Problem Solving
+- Counting and Iteration
+- Loop Control (`break`, `continue`)
+- Number Patterns
+- Prime Numbers
+- Divisibility and Modulo Operator
+- Basic Mathematical Problems
+- Iterative Problem Solving
 
 ## Problems
 
 | # | Problem | Topics | Solution |
 |---|---|---|---|
-| — | *Problems will be added soon.* | — | — |
+| 01 | H. One Prime | Loops, Prime Numbers, Divisibility, Modulo | [Problem-01.cpp](Problem-01.cpp) |
 
-## Notes
+---
 
-A collection of selected problems, useful observations, and techniques related to iterative problem solving.
+**Language:** C++  
+**Focus:** Problem Solving & Algorithmic Thinking
