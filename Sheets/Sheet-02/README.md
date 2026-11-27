@@ -19,6 +19,7 @@ This sheet focuses on loops and iterative problem-solving techniques, building t
 | # | Problem | Topics | Solution |
 |---|---|---|---|
 | 01 | H. One Prime | Loops, Prime Numbers, Divisibility, Modulo | [Problem-01.cpp](Problem-01.cpp) |
+| 02 | J. Primes from 1 to n | Nested Loops, Prime Numbers, Divisibility, Square Root Optimization | [Problem-02.cpp](Problem-02.cpp) |
 
 ---
 
